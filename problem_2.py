@@ -11,4 +11,4 @@ def get_tshirt(brand_name,Size):
     else:
        print("Hi", {name} , ",Unfortunately the brand or size you are looking for is not available in our store.")
 
-get_tshirt("levis","l")
+get_tshirt("adidas","xxl")

@@ -9,9 +9,9 @@ order.reverse()
 def get_order(order):
     for elements in order:
         print("Preparing your order:", elements)
-order.reverse()
-print("The following orders have been dispatched:")
-while len(order)>0:
+    order.reverse()
+    print("The following orders have been dispatched:")
+    while len(order)>0:
         popped = order.pop()  
         print(popped)
 
